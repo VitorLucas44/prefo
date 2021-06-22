@@ -1,0 +1,34 @@
+.header.header__article {
+    height: 450px;
+    width: 100%;
+    background: rgb(62,57,107);
+    position: relative;
+
+}
+.header__article .header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.3;
+    background-size: cover;
+
+}
+
+.article__vue--container {
+    width: 70%;
+    margin: auto;
+
+}
+
+.article__vue--title {
+    border-bottom: 3px solid #c0392b;
+}
+
+.article__vue-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
